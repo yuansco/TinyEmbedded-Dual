@@ -3,7 +3,7 @@
 Low-cost Embedded Linux development board compatible with RISC-V D1s/F133 and ARM Cortex-A7 T113-S3 SoC.
 
 TODO
-<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Demo/3d_top_view.PNG" style="width:550px;"/> -->
+<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Demo/3d_top_view.PNG" style="width:550px;"/> -->
 
 ## About the SoC
 D1s/F133: Single-Core RISC-V 64 @ 1.0G with in package 64MB DDR2\
@@ -35,29 +35,29 @@ TinyEmbedded-Dual is a low-cost embedded Linux development board compatible with
 #### Block Diagram
 
 TODO
-<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/block_diagram.PNG" style="width:450px;"/> -->
+<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/block_diagram.PNG" style="width:450px;"/> -->
 
 #### Power Tree
 
 TODO
-<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/power_tree.PNG" style="width:450px;"/> -->
+<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/power_tree.PNG" style="width:450px;"/> -->
 
 #### 3D Simulation
 
-<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/3d_top_view.PNG" style="width:450px;"/>
-<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/3d_bottom_view.PNG" style="width:450px;"/>
+<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/3d_top_view.PNG" style="width:450px;"/>
+<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/3d_bottom_view.PNG" style="width:450px;"/>
 
 #### Top View
 
-<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/top_view.PNG" style="width:450px;"/>
+<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/top_view.PNG" style="width:450px;"/>
 
 #### Download
 
-Schematic: [PDF](https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/TinyEmbedded_Dual_A.pdf)
+Schematic: [PDF](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/TinyEmbedded_Dual_A.pdf)
 
-BOM: [CSV](https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Document/BOM.CSV)
+BOM: [CSV](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/BOM.CSV)
 
-Image: [IMG](https://github.com/yuansco/TinyEmbedded-Dual/blob/master/Images/sysimage-sdcard.img)
+Image: [IMG](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Images/sysimage-sdcard.img)
 
 ### Build an SD card image for booting TinyEmbedded-Dual
 
