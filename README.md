@@ -34,13 +34,11 @@ TinyEmbedded-Dual is a low-cost embedded Linux development board compatible with
 
 #### Block Diagram
 
-TODO
-<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/block_diagram.PNG" style="width:450px;"/> -->
+<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/block_diagram.PNG" style="width:450px;"/>
 
 #### Power Tree
 
-TODO
-<!-- <img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/power_tree.PNG" style="width:450px;"/> -->
+<img src="https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/power_tree.PNG" style="width:450px;"/>
 
 #### 3D Simulation
 
@@ -55,13 +53,26 @@ TODO
 
 Schematic: [PDF](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/TinyEmbedded_Dual_A.pdf)
 
-BOM: [CSV](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/BOM.CSV)
+BOM: [CSV](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/BOM.CSV) (TODO)
 
-Image: [IMG](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Images/sysimage-sdcard.img)
+Image: [IMG](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Images/sdcard.img) (TODO)
 
 ### Build an SD card image for booting TinyEmbedded-Dual
 
-
 ``` shell
-TODO
+# Install development tools
+sudo apt install -y libssl-dev swig
+
+# Download TinyEmbedded-Dual BSP from https://github.com/yuansco/Buildroot-TinyEmbedded-Dual
+git clone https://github.com/yuansco/Buildroot-TinyEmbedded-Dual.git
+
+# Apply defconfig
+cd Buildroot-TinyEmbedded-Dual
+make tinyembedded_dual_defconfig
+
+# Build image
+make 
+
+# Flash image into your SD card. You need to replace /dev/sdx with the actual drive letter.
+sudo dd if=./output/image/sdcard.img of=/dev/sdx bs=512 status=progress && sync
 ```
