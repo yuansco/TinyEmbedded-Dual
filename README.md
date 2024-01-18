@@ -30,7 +30,7 @@ TinyEmbedded-Dual is a low-cost embedded Linux development board compatible with
 
  * One 3.5mm headphone jack for audio output.
 
-### Hardware Design
+## Hardware Design
 
 #### Block Diagram
 
@@ -57,11 +57,11 @@ BOM: [CSV](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Document/BOM.C
 
 Image: [IMG](https://github.com/yuansco/TinyEmbedded-Dual/blob/main/Images/sdcard.img) (TODO)
 
-### Build an SD card image for booting TinyEmbedded-Dual
+## Build an SD card image for booting TinyEmbedded-Dual
 
 ``` shell
 # Install development tools
-sudo apt install -y libssl-dev swig
+sudo apt install -y libssl-dev swig ncurses-dev flex bison
 
 # Download TinyEmbedded-Dual BSP from https://github.com/yuansco/Buildroot-TinyEmbedded-Dual
 git clone https://github.com/yuansco/Buildroot-TinyEmbedded-Dual.git
